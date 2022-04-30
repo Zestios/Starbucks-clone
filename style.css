@@ -1,8 +1,9 @@
 /* Reset / Initial setup */
 :root {
   --color-primary: #006241;
-  --color-secondary: #d50032;
-  --color-tertiary: #d4e9e2;
+  --color-secondary: #d4e9e2;
+  --color-tertiary: #1e3932;
+  --color-quaternary: #f4f3ee;
 }
 
 *,
@@ -136,4 +137,26 @@ img {
 
 .btn-dark:hover {
   background-color: rgba(0, 0, 0, .85);
+}
+
+
+/* Background classes */
+.background-extra {
+  background-color: var(--color-secondary);
+  color: #000;
+}
+
+.background-primary {
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+}
+
+.background-secondary {
+  background-color: var(--color-tertiary);
+  color: #fff;
+}
+
+.background-tertiary {
+  background-color: var(--color-quaternary);
+  color: var(--color-tertiary);
 }
