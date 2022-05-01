@@ -99,8 +99,19 @@ img {
   align-items: center;
 }
 
+.grid-col-2-gap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
 @media(max-width: 800px) {
   .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-col-2-gap {
     grid-template-columns: 1fr;
   }
 }
@@ -207,13 +218,17 @@ img {
   color: #fff;
 }
 
+.btn-light-outline:hover {
+  background-color: hsla(0,0%,100%,.12);
+}
+
 .btn-dark {
   background-color: #000;
   color: #fff;
 }
 
 .btn-dark:hover {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .text-link:hover {
@@ -247,10 +262,6 @@ img {
 
 .background-tertiary {
   background-color: var(--color-quaternary);
-  color: var(--color-tertiary);
-}
-
-.background-secondary .btn {
   color: var(--color-tertiary);
 }
 
