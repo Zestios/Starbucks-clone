@@ -242,6 +242,10 @@ img {
   color: #000;
 }
 
+.background-extra-2 {
+  color: #000;
+}
+
 .background-primary {
   background-color: var(--color-secondary);
   color: var(--color-tertiary);
