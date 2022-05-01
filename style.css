@@ -26,6 +26,12 @@ html {
   }
 }
 
+@media(max-width: 560px) {
+  html {
+    font-size: 45%;
+  }
+}
+
 html, body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
@@ -186,6 +192,12 @@ img {
 
 .navbar__nav-right .btn {
   font-size: 1.4rem;
+}
+
+@media (max-width: 800px) {
+  .navbar .navbar__nav-left, .navbar .navbar__nav-right {
+    display:none;
+  }
 }
 
 
